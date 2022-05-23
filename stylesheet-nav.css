@@ -1,0 +1,32 @@
+/* CSS stylesheet for the nav element */
+nav {
+  text-align: right;
+  padding: 20px;
+  margin: auto;
+  font-family: monospace;
+  text-decoration: none;
+  background: rgb(126, 124, 124);
+  position: relative;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: content-box;
+}
+
+/* nav a.hover {
+  background: white;
+  border-radius: 0.5rem;
+  color: black;
+  transition: 1seconds ease-in;
+} */
+
+a {
+  text-decoration: none;
+  color: rgb(243, 238, 238);
+  padding: 10px;
+  border: 1px transparent;
+  font-size: 14px;
+  font-weight: bold;
+  box-sizing: content-box;
+}

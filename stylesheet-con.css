@@ -1,0 +1,29 @@
+/* CSS stylesheet for the contact, register and login page */
+div {
+  position: relative;
+  width: 500px;
+  right: -400px;
+  left: 430px;
+  box-sizing: content-box;
+}
+
+.register {
+  position: relative;
+  max-width: 500px;
+  right: -400px;
+  left: 430px;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: content-box;
+  align-content: center;
+}
+
+.login {
+  position: relative;
+  max-width: 500px;
+  right: -400px;
+  left: 430px;
+  box-sizing: border-box;
+}

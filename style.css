@@ -1,0 +1,95 @@
+/* CSS stylesheet for the home page */
+header {
+  height: 350px;
+  background-image: url(./images/macbook_pro-wallpaper-1280x1024.jpg);
+  opacity: 0.9;
+  border-width: 10px;
+  box-sizing: content-box;
+  margin: auto;
+}
+
+body {
+  background-color: rgb(54, 55, 56);
+}
+
+main {
+  box-sizing: content-box;
+}
+
+.container-1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  border: 3px solid white;
+  margin: auto;
+  position: relative;
+  left: 10px;
+  top: 50px;
+  right: 100px;
+  bottom: 70px;
+  width: 600px;
+}
+
+img {
+  width: 20%;
+  float: right;
+  border: 1px transparent rgb(100, 97, 97);
+  margin-top: -62px;
+}
+
+.body-box {
+  box-sizing: content-box;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p,
+ul {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+}
+
+h1 + p {
+  font-family: Tahoma;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.container-2 {
+  background-color: rgb(192, 192, 134);
+  display: inline;
+  font-size: 15px;
+  border: 3px transparent rgb(251, 248, 248);
+  width: 100px;
+}
+
+p a {
+  color: #e53c11;
+  font-size: auto;
+  background: none;
+  margin-bottom: -100px;
+  position: relative;
+  bottom: 10px;
+  padding: 4px;
+  text-decoration: underline;
+}
+
+footer {
+  background-image: url("./images/apple-in-dark-room-background.jpg");
+  border-sizing: content-box;
+  height: 60px;
+  width: auto;
+}
+footer #footer {
+  color: rgb(244, 244, 238);
+  margin-top: -50px;
+  padding: 30px;
+  position: relative;
+  right: 20px;
+  top: 20px;
+  font-size: small;
+}

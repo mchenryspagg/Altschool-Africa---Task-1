@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="stylesheet-nav.css">
+  <link rel="stylesheet" href="stylesheet-con.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    	<nav>
+		<a href="./index.html" id="home">About</a>  
+		<a href="./contact.html">Contact</a>  
+		<a href="./register.html">Register</a>  
+		<a href="./login.html">Login</a>  
+		<a href="./calculator.html">Calculator</a> 
+	</nav>
+	<div class="register">
+    <h3>Register Page</h3>
+
+	<!-- Creating a form -->
+	<form action="#" id="register">
+		<fieldset>
+			<legend><b>Personal Details</b></legend>
+
+			<!-- Label and input field -->
+			<p>
+				<label for="firstname">First name : <input type="text"name="firstName" placeholder="enter your first name"  required/></label>
+			</p>
+
+			<p>
+				<label for="Lastname">Last name : <input type="text" name="lastName" placeholder=" enter your last name" required/></label>
+			</p>
+			<p>
+				<label for="phone">Phone: <input type="tel" name="phone" pattern="+[0-9]{3}-[0-9]{3}-[0-9]{4}-[0-9]{3}" placeholder="+234-801-2345-678" required></label>
+			</p>
+			<p>
+				Gender : 
+				<select name="gender" id="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="others">Others</option>
+				</select>
+			</p>
+
+			<p>
+				<label>Country : <input type="country"
+					name="country" required /></label>
+			</p>
+			<p>
+				<label>State/Province : <input type="text"
+					name="country" required /></label>
+			</p>
+			<p>
+				<label>Username : <input type="text"
+					name="username" id=username required></label>
+			</p>
+			<p>
+				<label>Password : <input type="password"
+					name="password" id=password required></label>
+			</p>
+			<p>
+				<label>Confirm Password : <input type="password"
+					name="password" id="confirm-password" required></label>
+			</p>
+			<!-- Creating a button -->
+			<p>
+				<button type="submit">Submit</button>
+			</p>
+		</fieldset>
+	</form>
+    </div>	
+  <!-- <footer>
+    <span id="footer">© HENRY UGO OKAM</span>
+  </footer>  -->
+</body>
+</html>
